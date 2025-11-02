@@ -1,0 +1,7 @@
+// Representa um aplicativo que pode ser instalado em qualquer celular
+interface IApp
+{
+    string Nome { get; }
+    void Abrir();
+    void Fechar();
+}
